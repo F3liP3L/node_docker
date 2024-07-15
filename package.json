@@ -1,0 +1,23 @@
+{
+  "name": "mongoapp-docker",
+  "version": "1.0.0",
+  "description": "my first app with docker",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/F3liP3L/node_docker.git"
+  },
+  "author": "F3liP3L",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/F3liP3L/node_docker/issues"
+  },
+  "homepage": "https://github.com/F3liP3L/node_docker#readme",
+  "dependencies": {
+    "express": "^4.19.2",
+    "mongoose": "^8.5.1"
+  }
+}
