@@ -1,0 +1,15 @@
+version: "3.9"
+services:
+  mongoapp_docker:
+    build: .
+    ports:
+      - "3000:3000"
+    links:
+      - mongos
+  mongos:
+    image: mongo
+    ports:
+      - "27017:27017"
+    environment:
+      - MONGO_INITDB_ROOT_USERNAME=felipe
+      - MONGO_INITDB_ROOT_PASSWORD=roo1234

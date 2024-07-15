@@ -12,7 +12,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true })); 
 
 // Conexión a la base de datos dockerizada
-mongoose.connect('mongodb://felipe:goku2014@localhost:27017/miapp?authSource=admin')
+mongoose.connect('mongodb://felipe:roo1234@mongos:27017/miapp?authSource=admin')
   .catch((error) => console.log('Ha ocurrido un problema al intentar conectarnos a la db:', error));
 
 
