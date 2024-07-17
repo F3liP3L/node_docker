@@ -13,3 +13,7 @@ services:
     environment:
       - MONGO_INITDB_ROOT_USERNAME=felipe
       - MONGO_INITDB_ROOT_PASSWORD=roo1234
+    volumes:
+      - mongoapp_data:/data/db
+volumes:
+  mongoapp_data:
